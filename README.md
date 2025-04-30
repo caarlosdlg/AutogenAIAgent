@@ -50,12 +50,20 @@ AutogenAIAgent/
    SUPABASE_URL=tu_url_de_supabase
    SUPABASE_KEY=tu_api_key_de_supabase
    PROJ_API_KEY=tu_api_key_de_openai
+
+   # Configuración de IA
+   AI_CONFIG_PATH=agent_config.json
+   AI_MODEL=gpt-4o-mini
+   AI_TEMPERATURE=0.7
    ```
 
 Reemplaza los valores con tus propias credenciales:
 - `SUPABASE_URL`: URL de tu proyecto de Supabase
 - `SUPABASE_KEY`: API key de tu proyecto de Supabase
 - `PROJ_API_KEY`: API key de OpenAI para acceder a los modelos GPT
+- `AI_CONFIG_PATH`: Ruta al archivo de configuración del agente (por defecto: `agent_config.json`)
+- `AI_MODEL`: Modelo de IA a utilizar (por defecto: `gpt-4o-mini`)
+- `AI_TEMPERATURE`: Parámetro de temperatura para las respuestas de IA (por defecto: `0.7`)
 
 ### Estructura de la Base de Datos
 
